@@ -9,7 +9,7 @@ const path = require("path");
 const fs = require("fs");
 
 const OUTPUT_DIR = path.resolve(__dirname, "dist");
-const outputPath = path.join(OUTPUT_DIR, "team.html");
+const outputPath = path.join(OUTPUT_DIR, "generated-team.html");
 const generateTeam = require("./src/template.js");
 
 teamArray = [];
