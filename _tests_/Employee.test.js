@@ -1,10 +1,13 @@
+// Importing Employee constructor
 const Employee = require("../lib/Employee");
 
+// Creating employee constructor with object
 test("Can create an new employee.", () => {
     const employeeInstance = new Employee();
     expect(typeof(employeeInstance)).toEqual("object");
 })
 
+// Testing methods
 test("Testing name.", () => {
     const name = "Carol";
     const employeeInstance = new Employee(name);

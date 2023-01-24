@@ -12,10 +12,10 @@ const OUTPUT_DIR = path.resolve(__dirname, "dist");
 const outputPath = path.join(OUTPUT_DIR, "generated-team.html");
 const generateTeam = require("./src/template.js");
 
+// Array for team
 teamArray = [];
 
-
-
+// Creating the function for inquirer prompts for employee role
 function runApp () {
 
   function createTeam () {
