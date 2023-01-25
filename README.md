@@ -28,7 +28,11 @@
 
 
 ## License:
-Read more about the  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  here: https://opensource.org/licenses/MIT.
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
+
+
+Read more about the MIT licence here: https://opensource.org/licenses/MIT.
 
 
 ## Tests:
