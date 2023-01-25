@@ -31,23 +31,23 @@ test("Testing email.", () => {
 test("Gets name through getName method.", () => {
     const testName = "Carol";
     const employeeInstance = new Employee(testName);
-    expect(employeeInstance.getName()).toBe(testName);
+    expect(employeeInstance.getName()).toEqual(testName);
 })
 
 test("Can test ID through getID method.", () => {
     const testID = 2;
     const employeeInstance = new Employee("Carol", testID);
-    expect(employeeInstance.getId()).toBe(testID);
+    expect(employeeInstance.getId()).toEqual(testID);
 })
 
 test("Can test email through getEmail method.", () => {
     const testEmail = "carol@gmail.com";
     const employeeInstance = new Employee("Carol", 2, testEmail);
-    expect(employeeInstance.getEmail()).toBe(testEmail);
+    expect(employeeInstance.getEmail()).toEqual(testEmail);
 })
 
 test("Testing role.", () => {
     const returnValue = "Employee";
     const employeeInstance = new Employee("Carol", 2, "carol@gmail.com");
-    expect(employeeInstance.getRole()).toBe(returnValue);
+    expect(employeeInstance.getRole()).toEqual(returnValue);
 })
