@@ -13,13 +13,13 @@
 
 
 ## Installation:
-  This application runs through Node.js. It needs the Inquirer package (version 8.2.4) for collecting the user input and Jest framework for running the unit tests. 
+  This application runs through Node.js. It needs the Inquirer package (version 8.2.4) using `npm i inquirer@8.2.4` command for collecting the user input and Jest framework using `npm i jest` command for running the unit tests. 
 
 
 ## Usage:
    The application can be invoked using a `node index.js` command. The user will be prompted to answer some questions. User should address all the prompts. The HTML webpage will be generated following the user input.
    
-   Follow the [Walkthrough video]() for its potential applications. 
+   Follow the [Walkthrough video](https://drive.google.com/file/d/1hWt2d4n3LkR9_BW2fPleOkXBIhP_3oMG/view) for its potential applications. 
 
 
    The following screenshot depicts the generated website. 
