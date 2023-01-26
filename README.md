@@ -24,7 +24,7 @@
 
    The following screenshot depicts the generated website. 
 
-   ![screenshot-of-applicaton]()
+   ![screenshot-of-applicaton](./dist/img1.png)
 
 
 ## License:
