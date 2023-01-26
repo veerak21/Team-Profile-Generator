@@ -13,7 +13,7 @@
 
 
 ## Installation:
-  This application runs through Node.js. It needs the Inquirer package (version 8.2.4) using `npm i inquirer@8.2.4` command for collecting the user input and Jest framework using `npm i jest` command for running the unit tests. 
+  This application runs through Node.js. It needs the Inquirer package (version 8.2.4) for collecting the user input and Jest framework for running the unit tests. The Inquirer package and Jest framework are installed using `npm i inquirer@8.2.4` and `npm i jest` commands, respectively.
 
 
 ## Usage:
